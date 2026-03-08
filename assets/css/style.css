@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
 main {
   display: flex;
   justify-content: center;
@@ -15,7 +20,7 @@ main {
   flex-direction: column;
   justify-content: space-between;
   width: calc(25vw + 30vh);
-  min-height: calc(22vw + 27vh);
+  height: calc(22vw + 27vh);
   padding: 25px 20px;
   border: none;
   border-radius: 10px;
@@ -31,9 +36,11 @@ main {
 
 .form-input {
   padding: 12px;
+  font: inherit;
   width: 100%;
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 5px;
+  outline: none;
 }
 
 .form-input:focus {
@@ -41,12 +48,17 @@ main {
 }
 
 .submit-btn {
-  padding: 12px 25px;
+  padding: 14px 25px;
+  font: inherit;
   border: none;
   border-radius: 5px;
   color: #ffffff;
   background-color: #2c6bec;
   cursor: pointer;
+}
+
+.list-section {
+  overflow: auto;
 }
 
 .todo-card {
@@ -64,7 +76,7 @@ main {
 }
 
 .delete-btn {
-  padding: 8px;
+  padding: 10px;
   border: none;
   border-radius: 5px;
   color: #ffffff;
