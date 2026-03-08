@@ -1,0 +1,19 @@
+.todo-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px 15px;
+  background-color: #c5e1e5;
+  border: 1px solid var(--additional-color-dark);
+  border-radius: 5px;
+}
+
+.delete-btn {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: var(--additional-color-light);
+  background-color: var(--main-color-dark);
+  cursor: pointer;
+}
