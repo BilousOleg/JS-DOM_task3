@@ -1,3 +1,12 @@
+:root {
+  --main-color-default: #2060ca;
+  --main-color-light: #2c6bec;
+  --main-color-dark: #1c1c9f;
+  --card-bg-color: #c5e1e5;
+  --additional-color-light: #ffffff;
+  --additional-color-dark: #000000;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -12,7 +21,7 @@ main {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #2060ca;
+  background-color: var(--main-color-default);
 }
 
 .todo {
@@ -24,7 +33,7 @@ main {
   padding: 25px 20px;
   border: none;
   border-radius: 10px;
-  background-color: #ffffff;
+  background-color: var(--additional-color-light);
 }
 
 .form-section > form {
@@ -38,13 +47,13 @@ main {
   padding: 12px;
   font: inherit;
   width: 100%;
-  border: 2px solid black;
+  border: 2px solid var(--additional-color-dark);
   border-radius: 5px;
   outline: none;
 }
 
 .form-input:focus {
-  border-color: #2c6bec;
+  border-color: var(--main-color-light);
 }
 
 .submit-btn {
@@ -52,8 +61,8 @@ main {
   font: inherit;
   border: none;
   border-radius: 5px;
-  color: #ffffff;
-  background-color: #2c6bec;
+  color: var(--additional-color-light);
+  background-color: var(--main-color-light);
   cursor: pointer;
 }
 
@@ -68,7 +77,7 @@ main {
   margin: 10px 0;
   padding: 10px 15px;
   background-color: #c5e1e5;
-  border: 1px solid black;
+  border: 1px solid var(--additional-color-dark);
   border-radius: 5px;
 }
 
@@ -79,7 +88,7 @@ main {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  color: #ffffff;
-  background-color: #1c1c9f;
+  color: var(--additional-color-light);
+  background-color: var(--main-color-dark);
   cursor: pointer;
 }
