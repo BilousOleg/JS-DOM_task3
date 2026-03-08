@@ -5,6 +5,7 @@
   --card-bg-color: #c5e1e5;
   --additional-color-light: #ffffff;
   --additional-color-dark: #000000;
+  --invalid-color: #f7260b;
 }
 
 * {
@@ -28,6 +29,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 15px;
   width: calc(25vw + 30vh);
   height: calc(22vw + 27vh);
   padding: 25px 20px;
@@ -54,6 +56,10 @@ main {
 
 .form-input:focus {
   border-color: var(--main-color-light);
+}
+
+.invalid {
+  border-color: var(--invalid-color);
 }
 
 .submit-btn {
