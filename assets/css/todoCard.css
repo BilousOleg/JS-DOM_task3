@@ -2,17 +2,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 10px 0;
-  padding: 10px 15px;
-  background-color: #c5e1e5;
+  margin: 0.625rem 0;
+  padding: 0.625rem 0.9375rem;
   border: 1px solid var(--additional-color-dark);
-  border-radius: 5px;
+  border-radius: 0.3125rem;
+  background-color: #c5e1e5;
 }
 
 .delete-btn {
-  padding: 10px;
+  padding: 0.625rem;
   border: none;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   color: var(--additional-color-light);
   background-color: var(--main-color-dark);
   cursor: pointer;
